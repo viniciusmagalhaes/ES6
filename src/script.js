@@ -22,8 +22,8 @@ console.log("Obj: ", obj);
 // Arrow function
 // ==========================================================================
 
+// I don't need the word 'return'
 var arrowGreeting = (name, message) => message + name;
-
 document.querySelector(".item-1").innerHTML = arrowGreeting("World", "Hello ");
 
 // if my function just have one parameter i don't need to ()
@@ -31,13 +31,7 @@ var age = n => n;
 console.log("My age is", age(26));
 
 
-
-
-
-
-
-
-
+// e.g
 var deliveryBoy = {
 
   name: "Jhon",
@@ -58,46 +52,3 @@ var deliveryBoy = {
 
 deliveryBoy.receive();
 
-
-
-
-
-
-
-
-
-// var deliveryBoy = {
-
-//   name: "Jhon",
-
-//   handleMessage: function(message, handler) {
-
-//     handler(message);
-
-//   },
-
-//   receive: function() {
-
-//     var that = this;
-
-//     console.log('name ' + this.name);
-
-//     this.handleMessage("Hello, ", function(message) {
-
-//       // that.name; //get the proper name
-//       console.log(message + that.name);
-
-//     })
-
-//     function x () {
-//       console.log(this, 'hushushus')
-//     }
-
-//     x();
-
-//   }
-
-// }
-
-
-// deliveryBoy.receive();
