@@ -32,5 +32,6 @@ The *'this'* is **global**.
 
 > **arguments**, **typeof** and **instanceof** will not be created or defined to a function
 
-## Shorthand properties
+## Array from
 
+Create a new instance from array-like to array.
